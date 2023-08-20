@@ -12,9 +12,7 @@ import java.sql.*;
 @WebServlet(urlPatterns = "/Customer")
 public class CustomerServlet extends HttpServlet {
 
-    //    query string
-//    form Data (x-www-form-urlencoded)
-//    JSON
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
